@@ -1,5 +1,5 @@
 [![Monqade Logo](http://static.monqade.com/images/monqade-black-blue-80percent.png)](http://monqade.com)
-###### A facade for Mongoose - with some extras. The mongoose component of the Monqade Project.
+###### An express/monqade interface - automating Monqade into an http API.  The Express component of the Monqade Project.
 
   [![NPM Version][npm-image]][npm-url]
   [![MIT License][mitlicense-image]][mitlicense-url]
@@ -7,9 +7,9 @@
   [![Windows Build][appveyor-image]][appveyor-url]
   [![Test Coverage][coveralls-image]][coveralls-url]
   
-# Monqade Express #
+# Monqade Express (Beta) #
 
-##### The Monqade-Express Proxy
+##### The Monqade-Express Proxy 
 Fundamental component of the [Monqade Project](http://monqade.com/ "Monqade Project")
 Provides the go-between for Monqade and Express
 

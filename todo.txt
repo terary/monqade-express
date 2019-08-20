@@ -1,3 +1,6 @@
+verify git does not have todo.txt or roadmap.txt
+
+
 
 
 makeRouter and appendRoutes take no arguments.  This causes minor issue for test  - consider defaults 
