@@ -1,0 +1,46 @@
+
+-----------------------------
+build custom endpoint
+    mqProxy.use('ping',mqProxy.cloneMiddle('doUpsert'))
+    mqProxy.use('ping',functionThatSetsValues)
+    subApp.get(baseURI+'ping', function(req, res) {
+
+        mwStack['ping'].execute(req,res,mqSchema);
+    })
+
+--------------------
+
+turn documentation to json reader 
+    just reformat json to html - 
+
+
+use https://developers.google.com/discovery/v1/using#format
+    as discovery formatter
+
+
+
+
+
+add version - use numeric - to conform with the world
+
+of all the webMethods - what are the arguments - be consistent
+
+wm(find,proj,opt) << many ?
+wm(find,replace) << update or not - think not
+update should be?
+
+all do[WebMethod]One should be wm(candidate)
+wm(candidate) update
+wm(candidate) insert
+
+doFindMany
+(find,projection,option) ??
+
+doQueryMany
+(qb,projection,option)  ??
+
+------------------------- completed --------------------------
+figure out and stick with the slash
+
+the api uri has trailing slash or not 
+(http://localhost/mntpont/collection/verion/? or???)

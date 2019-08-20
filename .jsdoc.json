@@ -1,0 +1,32 @@
+{
+    "tags": {
+        "allowUnknownTags": true,
+        "dictionaries": ["jsdoc"]
+    },
+    "source": {
+        "include": ["src/monqade"],
+        "includePattern": ".js$",
+        "excludePattern": "(node_modules/|docs)"
+    },
+    "plugins": [
+        "plugins/markdown"
+    ],
+    "templates": {
+        "referenceTitle": "Monqade Schema",
+        "disableSort": false,
+        "collapse": true,
+        "resources": {
+            "google": "https://www.google.com/",
+            "mongoose": "https://mongoosejs.com/docs/guide.html",
+            "mongoDB": "https://www.mongodb.com/"
+        }
+    },
+    "opts": {
+        "destination": "./docs/release",
+        "encoding": "utf8",
+        "private": true,
+        "recurse": true,
+        "template": "./docs/jsdoc-template",
+        "tutorials": "./docs/tutorials"
+    }
+}

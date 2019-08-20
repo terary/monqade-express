@@ -1,0 +1,49 @@
+{
+  "name": "monqade-express",
+  "version": "0.1.0",
+  "description": "Monqade Express (Beta)",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "example": "examples",
+    "test": "test"
+  },
+  "dependencies": {
+    "coveralls": "^3.0.6",
+    "md5": "^2.2.1",
+    "mongoose": "^5.6.9",
+    "monqade-schema": "^1.0.3",
+    "monqade-shared": "^1.1.0",
+    "nyc": "^14.1.1"
+  },
+  "devDependencies": {
+    "chai-http": "^4.3.0",
+    "express": "^4.17.1",
+    "mocha": "^5.2.0",
+    "monqade-dev-schemas": "^1.1.0",
+    "morgan": "^1.9.1",
+    "node-fetch": "^2.6.0",
+    "nodemon": "^1.19.1"
+  },
+  "scripts": {
+    "test": "MONQADE_ENV=test mocha --timeout 10000 ./test/controller.js",
+    "test-srv": "MONQADE_ENV=test mocha --timeout 10000 ./test/controller2.js",
+    "debug": "MONQADE_ENV=test nodemon  --inspect ./examples/serverWrapper.js  ",
+    "debug-custom-endpoint": "MONQADE_ENV=test nodemon  --inspect ./examples/add-in-mqproxy-middleware.js  ",
+    "debug-example": "MONQADE_ENV=test nodemon  --inspect ./examples/server.js  ",
+    "test-nyc": "nyc mocha --timeout 10000 ./test/controller.js"
+  },
+  "nyc": {
+    "include": "src",
+    "exclude": [
+      "src/monqade/discovery.js",
+      "src/monqade/documentation.js"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://gituser@vps.ubiquityservers.com:33233/home/gituser/repos/moncade/monqade-express.git"
+  },
+  "author": "terary",
+  "license": "MIT"
+}
