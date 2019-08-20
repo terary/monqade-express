@@ -28,11 +28,11 @@
     "nyc": "^14.1.1"
   },
   "scripts": {
-    "test": "MONQADE_ENV=test mocha --timeout 10000 ./test/controller.js",
-    "test-srv": "MONQADE_ENV=test mocha --timeout 10000 ./test/controller2.js",
-    "debug": "MONQADE_ENV=test nodemon  --inspect ./examples/serverWrapper.js  ",
-    "debug-custom-endpoint": "MONQADE_ENV=test nodemon  --inspect ./examples/add-in-mqproxy-middleware.js  ",
-    "debug-example": "MONQADE_ENV=test nodemon  --inspect ./examples/server.js  ",
+    "test": " mocha --timeout 10000 ./test/controller.js",
+    "test-srv": "mocha --timeout 10000 ./test/controller2.js",
+    "debug": " nodemon  --inspect ./examples/serverWrapper.js  ",
+    "debug-custom-endpoint": " nodemon  --inspect ./examples/add-in-mqproxy-middleware.js  ",
+    "debug-example": " nodemon  --inspect ./examples/server.js  ",
     "test-nyc": "nyc mocha --timeout 10000 ./test/controller.js",
     "cover": "istanbul cover _mocha",
     "coveralls": "npm run cover -- --report lcovonly && cat ./coverage/lcov.info | coveralls"
