@@ -20,5 +20,8 @@ test_script:
   # run tests
   - npm test
 
+environment:
+  MONQADE_RUNTIME: travis
+
 # Don't actually build.
 build: off
