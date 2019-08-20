@@ -3,6 +3,7 @@ node_js:
   - "11"
 after_success:
   - npm run coveralls
+
 env:
   - MONQADE_RUNTIME=travis
 
