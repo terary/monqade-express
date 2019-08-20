@@ -28,7 +28,7 @@ Provides the go-between for Monqade and Express
 
 
 ## Git Repo ##
-https://github.com/terary/monqade-schema
+https://github.com/terary/monqade-express
 
 ## Installation ##
 
@@ -43,12 +43,6 @@ See the [`examples/`](examples) directory for examples of the key features.
 ### Contributors ###
 T. Chambers
 
-### Purpose ###
-Promote uniform document structure
-Reduce app development time
-Enforce business logic
-Use mongoDB/mongoose for flexibility - to color outside of the lines
-Use Monqade - to stay within the lines.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
@@ -56,19 +50,19 @@ Use Monqade - to stay within the lines.
 ## Preferred Markdown Editor
 https://pandao.github.io/editor.md/en.html
 
-[npm-image]: https://badge.fury.io/js/monqade-shared.svg
-[npm-url]: https://www.npmjs.com/package/monqade-shared
+[npm-image]: https://badge.fury.io/js/monqade-express.svg
+[npm-url]: https://www.npmjs.com/package/monqade-express
 
 
 [mitlicense-url]: http://opensource.org/licenses/MIT
 [mitlicense-image]: http://img.shields.io/badge/license-MIT-brightgreen.svg
 
 
-[travis-image]: https://img.shields.io/travis/terary/monqade-schema/master.svg?label=linux
-[travis-url]: https://travis-ci.org/terary/monqade-schema
+[travis-image]: https://img.shields.io/travis/terary/monqade-express/master.svg?label=linux
+[travis-url]: https://travis-ci.org/terary/monqade-express
 
-[appveyor-image]: https://img.shields.io/appveyor/ci/terary/monqade-schema/master.svg?label=windows
-[appveyor-url]: https://ci.appveyor.com/project/terary/monqade-schema/branch/master
+[appveyor-image]: https://img.shields.io/appveyor/ci/terary/monqade-express/master.svg?label=windows
+[appveyor-url]: https://ci.appveyor.com/project/terary/monqade-express/branch/master
 
-[coveralls-image]: https://coveralls.io/repos/github/terary/monqade-schema/badge.svg?branch=master
-[coveralls-url]: https://coveralls.io/github/terary/monqade-schema?branch=master
+[coveralls-image]: https://coveralls.io/repos/github/terary/monqade-express/badge.svg?branch=master
+[coveralls-url]: https://coveralls.io/github/terary/monqade-express?branch=master
